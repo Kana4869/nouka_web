@@ -1,0 +1,265 @@
+body {
+	color           : #716e77;
+	background-color: #faf9f5;
+	text-align      : center;
+	font-family     : "游明朝", "Yu Mincho";
+	font-weight     : lighter;
+	font-size       : 120%;
+}
+
+p {
+	margin: 50px 0 100px 0;
+}
+
+.introduction {
+	font-size      : 300%;
+	margin         : 200px 0 100px 0;
+	display        : flex;
+	align-items    : center;
+	justify-content: center;
+
+}
+
+.nouen {
+	width : 1890px;
+	height: 900px;
+}
+
+/* タイトル部分 */
+.feature img {
+	vertical-align: middle;
+	display       : inline-block;
+}
+
+.feature h1 {
+	color    : #857465;
+	font-size: 350%;
+	height   : 90px;
+	display  : inline-block;
+}
+
+.feature p {
+	color    : #857465;
+	font-size: 200%;
+	height   : 90px;
+	display  : inline-block;
+}
+
+.sabu {
+	font-size: 60%;
+}
+
+.slider {
+	width : 900px;
+	height: 650px;
+	margin: 50px 30px 50px 70px;
+	border: 9px solid #d4c1a9;
+}
+
+/* ナビゲーション */
+.nav {
+	margin       : 60px;
+	text-align   : center;
+	color        : #716e77;
+	padding      : 30px 30px 0 30px;
+	border-bottom: 2px solid #716e77;
+}
+
+ul {
+	list-style: none;
+	text-align: right;
+	margin    : 20px auto 20px auto;
+}
+
+li {
+	display: inline-block;
+}
+
+.nav ul {
+	overflow : hidden;
+	padding  : 0;
+	max-width: 1800px;
+}
+
+.nav ul li {
+	position: relative;
+	width   : 15%;
+}
+
+.nav ul li a {
+	display        : block;
+	padding        : 17px 5%;
+	width          : 90%;
+	color          : #716e77;
+	font-weight    : bold;
+	font-size      : 120%;
+	text-align     : center;
+	text-decoration: none;
+}
+
+/* 農園の紹介 */
+.introduction:before,
+.introduction:after {
+	border-top: 1px solid;
+	content   : "";
+	width     : 3em;
+}
+
+.introduction:before {
+	margin-right: 1em;
+
+}
+
+.introduction:after {
+	margin-left: 1em;
+
+}
+
+.sab-introduction {
+	font-size: 200%;
+}
+
+/* 紹介項目 */
+.rest {
+	display: inline-flex;
+}
+
+.rest-text {
+	width  : 500px;
+	padding: 20px;
+}
+
+.rest h3 p {
+	width: 49%;
+}
+
+
+/* アクセス */
+.access {
+	font-size  : 300%;
+	margin     : 200px 0 100px 0;
+	display    : flex;
+	align-items: center;
+
+	justify-content: center;
+
+
+}
+
+.access:before,
+.access:after {
+	border-top: 1px solid;
+	content   : "";
+	width     : 3em;
+
+}
+
+.access:before {
+	margin-right: 1em;
+
+}
+
+.access:after {
+	margin-left: 1em;
+
+}
+
+.accessContent {
+	width  : 80%;
+	display: flex;
+	margin : 10px auto;
+}
+
+
+.car h3 {
+	margin : 0;
+	padding: 0;
+}
+
+.car p {
+	margin : 0;
+	padding: 0;
+}
+
+.car {
+	margin          : 0;
+	padding         : 0;
+	border          : 5px double #d4c1a9;
+	color           : #333;
+	background-color: #fff;
+	border-radius   : 1px;
+}
+
+.train h3 {
+	margin : 0;
+	padding: 0;
+}
+
+.train p {
+	margin : 0;
+	padding: 0;
+}
+
+.train {
+	margin          : 0;
+	padding         : 0;
+	border          : 5px double #d4c1a9;
+	color           : #333;
+	background-color: #fff;
+	border-radius   : 1px;
+}
+
+
+.car {
+	width  : 100%;
+	display: inline-block;
+	padding: 20px;
+	margin : 100px 50px 100px 0;
+}
+
+.train {
+	width  : 100%;
+	display: inline-block;
+	padding: 20px;
+	margin : 100px 0 100px 50px;
+}
+
+/* マップ */
+.map {
+	border       : 5px solid #d4c1a9;
+	margin       : 20px auto 20px auto;
+	width        : 600px;
+	height       : 450px;
+	margin-bottom: 2px;
+}
+
+.map-text {
+	font-size: 120%;
+	margin   : 10px 0 0 0;
+}
+
+/* フッター */
+footer {
+	text-align: center;
+	color     : #716e77;
+	padding   : 30px;
+	border-top: 2px solid #716e77;
+	margin-top: 100px;
+}
+
+
+/* 959px以下タブレット用 */
+@media screen and (max-width: 959px) {
+	.nouen {
+		max-width: 960px;
+	}
+}
+
+
+
+/* 480px以下スマホ用 */
+@media screen and (max-width: 480px) {
+	.nouen {
+		max-width: 480px;
+	}
+}

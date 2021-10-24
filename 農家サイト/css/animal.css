@@ -1,0 +1,102 @@
+body {
+	color           : #716e77;
+	background-color: #faf9f5;
+	text-align      : center;
+	font-family     : "游明朝", "Yu Mincho";
+	font-weight     : lighter;
+	font-size       : 120%;
+}
+
+p {
+	margin: 50px 0 100px 0;
+}
+
+/* ナビゲーション */
+.nav {
+	margin       : 60px;
+	text-align   : center;
+	color        : #716e77;
+	padding      : 30px 30px 0 30px;
+	border-bottom: 2px solid #716e77;
+}
+
+ul {
+	list-style: none;
+	text-align: right;
+	margin    : 20px auto 20px auto;
+}
+
+li {
+	display: inline-block;
+}
+
+.nav ul {
+	overflow : hidden;
+	padding  : 0;
+	max-width: 1800px;
+}
+
+.nav ul li {
+	position: relative;
+	width   : 15%;
+}
+
+.nav ul li a {
+	display        : block;
+	padding        : 17px 5%;
+	width          : 90%;
+	color          : #716e77;
+	font-weight    : bold;
+	font-size      : 120%;
+	text-align     : center;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 300%;
+}
+
+/* 項目 */
+.animal {
+	display      : inline-flex;
+	margin-bottom: 100px;
+}
+
+h3 {
+	width : 49%;
+	margin: 70px auto;
+}
+
+.animal-img {
+	padding-right: 30px;
+}
+
+/* テーブル */
+.animal-table {
+	width  : 500px;
+	padding: 30px;
+}
+
+
+td,
+th {
+	border : 1px solid #ccc;
+	padding: 10px;
+}
+
+th {
+	background: #EFEFEF;
+}
+
+
+
+
+
+
+footer {
+	text-align: center;
+	color     : #716e77;
+	padding   : 30px;
+	border-top: 2px solid #716e77;
+	margin-top: 100px;
+}

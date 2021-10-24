@@ -1,0 +1,199 @@
+body {
+	color           : #716e77;
+	background-color: #faf9f5;
+	text-align      : center;
+	font-family     : "游明朝", "Yu Mincho";
+	font-weight     : lighter;
+	font-size       : 120%;
+}
+
+p {
+	margin     : 10px 50px 50px 50px;
+	text-align : center;
+	line-height: 40px;
+}
+
+h2 {
+	margin-top: 50px;
+}
+
+/* ナビゲーション */
+.nav {
+	margin       : 60px;
+	text-align   : center;
+	color        : #716e77;
+	padding      : 30px 30px 0 30px;
+	border-bottom: 2px solid #716e77;
+}
+
+ul {
+	list-style: none;
+	text-align: right;
+	margin    : 20px auto 20px auto;
+}
+
+li {
+	display: inline-block;
+}
+
+.nav ul {
+	overflow : hidden;
+	padding  : 0;
+	max-width: 1800px;
+}
+
+.nav ul li {
+	position: relative;
+	width   : 15%;
+}
+
+.nav ul li a {
+	display        : block;
+	padding        : 17px 5%;
+	width          : 90%;
+	color          : #716e77;
+	font-weight    : bold;
+	font-size      : 120%;
+	text-align     : center;
+	text-decoration: none;
+}
+
+ul.contact {
+	text-align: center;
+}
+
+h1 {
+	font-size: 300%;
+}
+
+
+/* お問い合わせフォーム */
+.contact-tel {
+	border : 1px solid #716e77;
+	margin : 100px auto;
+	padding: 0 10px 50px 10px;
+	width  : 40%;
+
+}
+
+.contact-foam {
+	border          : 1px solid #716e77;
+	margin          : 100px auto;
+	padding         : 50px 10px 0 10px;
+	width           : 40%;
+	background-color: #fff;
+
+}
+
+.lead-form {
+	text-align: center;
+	font-size : 200%;
+	color     : #585655;
+}
+
+form {
+	width  : 670px;
+	margin : 0 auto;
+	padding: 60px 0 10px 0;
+
+}
+
+.item {
+	margin  : 60px;
+	overflow: hidden;
+}
+
+.label {
+	color       : #585655;
+	border-left : 2px solid #dc143c;
+	float       : left;
+	margin-right: 100px;
+	width       : 135px;
+	padding-left: 10px;
+}
+
+.label-sub {
+	color       : #585655;
+	float       : left;
+	width       : 135px;
+	padding-left: 10px;
+}
+
+.inputs {
+	float: left;
+	width: 300px;
+}
+
+
+
+input[type="text"],
+input[type="email"] {
+	border       : solid 1px #aaa;
+	border-radius: 5px;
+	padding      : 10px;
+	font-size    : 15px;
+}
+
+textarea {
+	border       : solid 1px #aaa;
+	border-radius: 5px;
+	padding      : 10px;
+	height       : 160px;
+	font-size    : 15px;
+}
+
+.btn-area {
+	margin    : 100px 0 80px 0;
+	text-align: center;
+}
+
+input[type="submit"] {
+	text-align : center;
+	background : #dc143c;
+	border     : none;
+	color      : #ffffff;
+	font-size  : 17px;
+	font-weight: bold;
+	padding    : 10px 20px;
+	margin     : 0 5px;
+	text-align : center;
+	width      : 150px;
+	height     : 60px;
+	font-size  : 110%;
+}
+
+
+
+
+.label2 {
+	text-align: center;
+
+}
+
+
+.contents {
+	text-align: center;
+	margin    : 100px 0 100px 0;
+}
+
+.topgamen {
+	text-align : center;
+	background : #FFFF66;
+	border     : none;
+	color      : #73705F;
+	font-size  : 17px;
+	font-weight: bold;
+	padding    : 10px 20px;
+	margin     : 0 5px;
+	text-align : center;
+
+}
+
+/* フッター */
+footer {
+	text-align: center;
+	color     : #716e77;
+	padding   : 30px;
+	border-top: 2px solid #716e77;
+	margin-top: 100px;
+}
